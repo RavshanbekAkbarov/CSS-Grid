@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: #00faff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: 100px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.item1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #f3b90c;
+}
+
+.item2 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #ef810c;
+}
+
+.item3 {
+  background-color: #e74a4a;
+}
+
+.item4 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #db3737;
+}
+
+.item5 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #a40ea9;
+}
+
+.item6 {
+  background-color: #2a097b;
+}
+
+.item7 {
+  grid-column: span 2;
+  grid-row: 3 / span 1; /* 7-ni 5 ostiga ko'chirish va uzunligini 2 qatorga yetkazish */
+  background-color: #3d0e89;
+}
+
+.item8 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #2f51d8;
+}
+
+.item9 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #3d85c6;
+}
+
+.item10 {
+  grid-column: 6 / span 2; /* 1-chi ustundan boshlash, 2 ustunga cho'zish */
+  grid-row: 3 / span 1; /* 4 ni ostiga joylash, uzunligini 2 qatorga cho'zish */
+  background-color: #a4c2f4;
+}
+
+.item11 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #45818e;
+}
+
+.item12 {
+  grid-column: 9 / span 2;
+  grid-row: 2 / span 2;
+  background-color: #398715;
+}
+
+.item13 {
+  background-color: #408a20;
+}
+
+.item14 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #b4d246;
+}
+
+.item15 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #ddb641;
+}
+
+.item16 {
+  background-color: #d62727;
+}
+
+.item17 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #b45f06;
+}
+
+.item18 {
+  grid-column: 9 / span 2;
+  grid-row: 4 / span 2;
+  background-color: #666666;
+}
+
+.item19 {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+  background-color: #69f12a;
+}
+
+.item20 {
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 2;
+  background-color: #cb2d2d;
+}
+
+.item21 {
+  grid-column: 4 / span 2;
+  grid-row: 6 / span 1;
+  background-color: #4be912;
+}
+
+.item22 {
+  grid-column: 6 / span 2;
+  grid-row: 5 / span 2;
+  background-color: #f3b90c;
+}
+
+.item23 {
+  grid-column: 8 / span 1;
+  grid-row: span 2;
+  background-color: #e91414;
+}
+
+.item24 {
+  grid-column: 9 / span 2;
+  grid-row: 6 / span 1;
+  background-color: #5209ac;
+}
